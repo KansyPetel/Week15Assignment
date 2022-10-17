@@ -1,0 +1,103 @@
+/* general css */
+
+*{
+  padding: 5;
+}
+
+.body {
+  font-family: 'monserrat', san sans-serif;
+  background-color: blueviolet;
+  color: whitesmoke;
+}
+
+/*css for navbar*/
+.navbar {
+  background-color: yellow
+}
+
+.navbar:hover{
+  background-color:red
+}
+
+/* css for the main header */
+header {
+  padding: 50px 15px 15px;
+}
+
+header h1 {
+  text-align: center;
+  color: #deb992;
+  border: solid #deb992;
+  padding: 5px;
+}
+
+/*css for the main house list*/
+main {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/*new house area on the house list*/
+.newhouse {
+  text-align: center;
+  padding: 30px;
+}
+
+/*List of homes*/
+
+.house-list h2 {
+  color: white;
+  padding: 15px 0px;
+  border-bottom: white solid;
+  text-align: center;
+}
+
+.housename h3 {
+  color: black;
+}
+
+.housename-name h4 {
+padding: 0px 30px;
+color: #deb992;
+font-size: 40px;
+}
+
+.homedescription label {
+  padding: 0px 15px;
+}
+
+.homedescription .room {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.homedescription .area {
+  padding: 0px 30px;
+}
+
+.addRoom {
+  background-color: #deb992;
+  border: solid;
+}
+
+.addRoom:hover {
+  background-color: red;
+}
+
+.housename h3 {
+  padding-top: 30px;
+  background-color: yellow;
+}
+
+.housename h3:hover{
+  background-color: red;
+}
+
+.housename-name {
+  background-color: azure;
+}
+
+.housename-name:hover {
+  background-color: red;
+}
